@@ -36,7 +36,7 @@ const Home = () => {
   ];
 
   const stats = [
-    { number: "14+", label: "Năm kinh nghiệm", icon: Calendar },
+    { number: "25+", label: "Năm kinh nghiệm", icon: Calendar },
     { number: "200+", label: "Dự án hoàn thành", icon: Trophy },
     { number: "50+", label: "Đối tác tin cậy", icon: Users },
     { number: "100%", label: "Cam kết chất lượng", icon: CheckCircle }
@@ -54,7 +54,7 @@ const Home = () => {
         
         <div className="relative z-10 container mx-auto px-4 text-center text-primary">
           <Badge variant="secondary" className="mb-6 text-sm font-medium">
-            Hoạt động từ năm 2010
+            Hoạt động từ năm 2001
           </Badge>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             CÔNG TY TNHH XÂY DỰNG<br />
@@ -106,10 +106,10 @@ const Home = () => {
             <div>
               <Badge variant="outline" className="mb-4">Giới thiệu</Badge>
               <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">
-                14 năm kinh nghiệm xây dựng niềm tin
+                25 năm kinh nghiệm xây dựng niềm tin
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Công ty TNHH Xây dựng và Thương mại Ân Nghĩa được thành lập từ năm 2010, dưới sự lãnh đạo của Giám đốc Nguyễn Lụa. Chúng tôi tự hào là đối tác tin cậy trong lĩnh vực xây dựng và thương mại gỗ tại Hà Tĩnh.
+                Công ty TNHH Xây dựng và Thương mại Ân Nghĩa được thành lập từ năm 2001, dưới sự lãnh đạo của Giám đốc Nguyễn Lụa. Chúng tôi tự hào là đối tác tin cậy trong lĩnh vực xây dựng và thương mại gỗ tại Hà Tĩnh.
               </p>
               <div className="space-y-3 mb-8">
                 <div className="flex items-center space-x-3">
@@ -118,7 +118,7 @@ const Home = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-secondary" />
-                  <span>Giám đốc: Nguyễn Lụa - Kinh nghiệm 14+ năm</span>
+                  <span>Giám đốc: Nguyễn Lụa - Kinh nghiệm 25+ năm</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <CheckCircle className="h-5 w-5 text-secondary" />
@@ -139,7 +139,7 @@ const Home = () => {
                 className="rounded-lg shadow-elevated w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-secondary text-secondary-foreground p-6 rounded-lg shadow-elevated">
-                <div className="text-2xl font-bold">2010</div>
+                <div className="text-2xl font-bold">2001</div>
                 <div className="text-sm">Năm thành lập</div>
               </div>
             </div>

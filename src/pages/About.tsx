@@ -9,12 +9,12 @@ import phoGiamDocImage from "/images/pho_giam_doc.jpg";
 
 const About = () => {
   const milestones = [
-    { year: "2010", event: "Thành lập công ty với MST 3000266069" },
+    { year: "2001", event: "Thành lập công ty với MST 3000266069" },
     { year: "2012", event: "Mở rộng dịch vụ sang lĩnh vực thương mại gỗ" },
     { year: "2015", event: "Đầu tư trang thiết bị hiện đại" },
     { year: "2018", event: "Hoàn thành 100+ dự án xây dựng" },
     { year: "2020", event: "Mở rộng hoạt động ra các tỉnh lân cận" },
-    { year: "2024", event: "14 năm phát triển bền vững" }
+    { year: "2025", event: "25 năm phát triển bền vững" }
   ];
 
   const values = [
@@ -39,7 +39,7 @@ const About = () => {
     {
       name: "Nguyễn Lụa",
       position: "Giám đốc",
-      description: "14+ năm kinh nghiệm trong lĩnh vực xây dựng và quản lý doanh nghiệp",
+      description: "25+ năm kinh nghiệm trong lĩnh vực xây dựng và quản lý doanh nghiệp",
       image: giamDocImage
     },
     {
@@ -63,10 +63,10 @@ const About = () => {
         <div className="container mx-auto px-4 text-center">
           <Badge variant="secondary" className="mb-6">Giới thiệu</Badge>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Về Công ty Ân Nghĩa
+            25 năm kinh nghiệm xây dựng niềm tin
           </h1>
           <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
-            14 năm kinh nghiệm xây dựng niềm tin, chúng tôi tự hào là đối tác tin cậy trong lĩnh vực xây dựng và thương mại gỗ tại Hà Tĩnh
+            Công ty TNHH Xây dựng và Thương mại Ân Nghĩa được thành lập từ năm 2001, dưới sự lãnh đạo của Giám đốc Nguyễn Lụa. Chúng tôi tự hào là đối tác tin cậy trong lĩnh vực xây dựng và thương mại gỗ tại Hà Tĩnh
           </p>
         </div>
       </section>
@@ -80,7 +80,7 @@ const About = () => {
                 Công ty TNHH Xây dựng và Thương mại Ân Nghĩa
               </h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Được thành lập vào ngày 22 tháng 6 năm 2010, Công ty TNHH Xây dựng và Thương mại Ân Nghĩa đã trở thành một trong những doanh nghiệp uy tín tại Hà Tĩnh trong lĩnh vực xây dựng và thương mại gỗ.
+                Được thành lập vào ngày 22 tháng 6 năm 2001, Công ty TNHH Xây dựng và Thương mại Ân Nghĩa đã trở thành một trong những doanh nghiệp uy tín tại Hà Tĩnh trong lĩnh vực xây dựng và thương mại gỗ.
               </p>
               
               <div className="space-y-4 mb-8">
@@ -111,7 +111,7 @@ const About = () => {
 
               <div className="grid grid-cols-3 gap-4 p-6 bg-muted/30 rounded-lg">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-primary mb-1">14+</div>
+                  <div className="text-2xl font-bold text-primary mb-1">25+</div>
                   <div className="text-sm text-muted-foreground">Năm kinh nghiệm</div>
                 </div>
                 <div className="text-center">
@@ -201,7 +201,7 @@ const About = () => {
           <div className="text-center mb-16">
             <Badge variant="outline" className="mb-4">Lịch sử phát triển</Badge>
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary">
-              Hành trình 14 năm phát triển
+              Hành trình 25 năm phát triển
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Từ những ngày đầu thành lập đến nay, chúng tôi không ngừng phát triển và hoàn thiện
@@ -232,7 +232,7 @@ const About = () => {
             Hợp tác cùng chúng tôi
           </h2>
           <p className="text-xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-            Với 14 năm kinh nghiệm và đội ngũ chuyên nghiệp, chúng tôi sẵn sàng đồng hành cùng bạn trong mọi dự án
+            Với 25 năm kinh nghiệm và đội ngũ chuyên nghiệp, chúng tôi sẵn sàng đồng hành cùng bạn trong mọi dự án
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Button asChild size="lg" variant="secondary">
