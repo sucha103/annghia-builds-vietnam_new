@@ -3,9 +3,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Building2, Users, Target, Award, CheckCircle, Calendar, MapPin, Phone } from "lucide-react";
-import directorsImage from "/public/images/dai_dien.jpg";
-import giamDocImage from "/public/images/giam_doc.jpg";
-import phoGiamDocImage from "/public/images/pho_giam_doc.jpg";
+import directorsImage from "/images/dai_dien.jpg";
+import giamDocImage from "/images/giam_doc.jpg";
+import phoGiamDocImage from "/images/pho_giam_doc.jpg";
 
 const About = () => {
   const milestones = [
@@ -52,7 +52,7 @@ const About = () => {
       name: "Loan",
       position: "Kế toán trưởng",
       description: "kiểm toán cho công ty và đảm bảo tuân thủ các quy định tài chính",
-      image: "/public/images/ke_toan.jpg"
+      image: "/images/ke_toan.jpg"
     }
   ];
 
